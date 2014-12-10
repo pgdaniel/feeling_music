@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141210063015) do
+ActiveRecord::Schema.define(version: 20141210073727) do
 
   create_table "locations", force: true do |t|
     t.string   "name"
@@ -19,6 +19,14 @@ ActiveRecord::Schema.define(version: 20141210063015) do
     t.datetime "updated_at"
     t.float    "lat"
     t.float    "lng"
+  end
+
+  create_table "recording_artists", force: true do |t|
+    t.string   "name"
+    t.string   "genre"
+    t.string   "mood"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end
