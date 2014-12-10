@@ -78,6 +78,8 @@ GEM
       multi_xml (>= 0.5.2)
     httpclient (2.5.3.3)
     i18n (0.6.11)
+    itunes-search-api (0.1.0)
+      httparty
     jquery-rails (3.1.2)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
@@ -86,10 +88,14 @@ GEM
       mime-types (>= 1.16, < 3)
     method_source (0.8.2)
     mime-types (2.4.3)
+    mini_portile (0.6.1)
     minitest (5.4.3)
     multi_json (1.10.1)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
+    musicbrainz (0.7.7)
+      faraday
+      nokogiri
     neo4j (3.0.4)
       active_attr (~> 0.8)
       activemodel (~> 4)
@@ -110,6 +116,8 @@ GEM
       os
       zip
     net-http-persistent (2.9.4)
+    nokogiri (1.6.5)
+      mini_portile (~> 0.6.0)
     orm_adapter (0.5.0)
     os (0.9.6)
     pry (0.10.1)
@@ -190,7 +198,9 @@ DEPENDENCIES
   forecast_io
   geokit-rails
   httparty
+  itunes-search-api
   jquery-rails
+  musicbrainz
   neo4j
   pry-rails
   rails (= 4.1.8)

@@ -9,6 +9,8 @@ gem 'forecast_io'
 gem 'httparty'
 gem 'neo4j'
 gem 'geokit-rails'
+gem 'itunes-search-api'
+gem 'musicbrainz'
 
 group :testing do
   gem 'turnip'
