@@ -11,6 +11,7 @@ gem 'neo4j'
 gem 'geokit-rails'
 gem 'itunes-search-api'
 gem 'musicbrainz'
+gem 'bootstrap-sass'
 
 group :testing do
   gem 'turnip'
