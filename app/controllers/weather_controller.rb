@@ -11,6 +11,7 @@ class WeatherController < ApplicationController
     lat = params['lat']
     lng = params['lng']
     @forecast = ForecastIO.forecast(lat, lng)
-    render text: @forecast.currently.icon
+    # render text: @forecast.currently.icon
+    render json: @forecast
   end
 end

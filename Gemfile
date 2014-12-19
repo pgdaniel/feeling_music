@@ -15,10 +15,10 @@ gem 'musicbrainz'
 group :testing do
   gem 'turnip'
   gem 'byebug'
-  gem 'pry-rails'
 end
 
 group :development do
+  gem 'pry-rails'
   gem 'binding_of_caller'
   gem 'better_errors'
 end
